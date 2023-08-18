@@ -1,0 +1,140 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+%\usepackage{gvv}
+%
+%\usepackage{setspace}
+%\usepackage{gensymb}
+%\doublespacing
+%\singlespacing
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+%\usepackage{amsthm}
+%\usepackage{iithtlc}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{bm}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{subfig}
+%\usepackage{xtab}
+%\usepackage{longtable}
+%\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{tikz}
+%\usepackage{circuitikz}
+%\usepackage{verbatim}
+%\usepackage{tfrupee}
+%\usepackage{stmaryrd}
+%\usetkzobj{all}
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+%    \usepackage{lscape}     
+%\usepackage{multicol}
+%\usepackage{chngcntr}
+%\usepackage{enumerate}
+
+%\usepackage{wasysym}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\title{Latex Assignment4}
+\author{D.V.S. NIKHIL}
+\date{18 August,2023}
+\maketitle
+\section*{Exercise 10.3.5}
+\begin{enumerate}
+\item Which of the following pairs of linear equations has unique solution, no solution or infinitely many solutions.In case there is a unique solution,find it by using cross multiplication method:
+  \begin{enumerate}[label=(\roman*)]
+	\item $x-3y-3=0$\\
+	$3x-9y-2=0$
+	\item $2x+y=5$\\
+	$3x+2y=8$
+	\item $3x-5y=20$\\
+	$6x-10y=40$
+	\item $x-3y-7=0$\\
+	$3x-3y-15=0$
+  \end{enumerate}
+\item 
+  \begin{enumerate}[label=(\roman*)]
+  \item For which values of $a$ and $b$ does the following pair of linear equations have an infinite number of solutions?
+	\begin{align}
+	2x+3y=7\\
+	(a-b)x+(a-b)y=3a+b-2
+	\end{align}
+  \item For which value of k will the following pair of linear equation have no solution?
+	\begin{align}
+	3x+y=1\\
+	(2k-1)x+(k-1)y=2k+1
+	\end{align}
+   \end{enumerate}
+\item Solve the following pair of linear equations by the substituions and cross multiplication method:
+\begin{align}
+8x+5y=9
+3x+2y=4
+\end{align}
+\item Form the pair of linear equations in the following problems and find their solutions by any algebraic method:
+\begin{enumerate}[label=(\roman*)]
+\item A part of monthly hostel charges is fixed and the remaining depends on the number of days one has taken food in the mess.When a student $A$ takes food for $20$ days she has to pay Rs.$1000$ as hostel charges whereas a student $B$ who takes food for $26$ days, pays Rs.$1180$ as hostel charges.Find the fixed charges and the cost of food per day.
+\item A fraction becomes $\frac{1}{3}$ when $1$ is subtracted from the numerator and it becomes $\frac{1}{4}$ when $8$ is added to the denominator. Find the fraction.
+\item Yash scored $40$ marks in a test,getting $3$ marks for each right answer and losing $1$ mark for each wrong answer. Had $4$ marks been awarded for each correct answer and $2$ marks been deducted for each incorrect answer, then Yash would have scored $50$ marks. How many questions were there in the test?
+\item Places $A$ and $B$ are $100$km apart on a highway.One car starts from $A$ and another from $B$ at the same time.If the car travel in the same direction at different speeds, they meet in $5$hrs. If they travel towards each other,they meet in $1$hr.What are the speeds of the two cars?
+\item The area of rectangle gets reduced by $9$ square units,if its length is reduced by $5$ units and breadth is increased by $3$ units. If we increase the length by $3$ units and the breadth by $2$ units, the area increases by $67$ square units.Find the dimensions of the rectangle.
+\end{enumerate}
+\end{enumerate}
+\end{document} 
