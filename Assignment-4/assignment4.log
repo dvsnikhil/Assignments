@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  18 AUG 2023 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  19 AUG 2023 06:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,36 +1104,26 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./assignment4.aux)
-
-Package rerunfilecheck Warning: File `assignment4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `assignment4.out':
-(rerunfilecheck)             Before: CB48B907D92850C568424C2F9F82D752;91
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `assignment4.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29056 strings out of 476091
- 572604 string characters out of 5794081
- 1866330 words of memory out of 5000000
- 48803 multiletter control sequences out of 15000+600000
+ 29062 strings out of 476091
+ 572695 string characters out of 5794081
+ 1870330 words of memory out of 5000000
+ 48801 multiletter control sequences out of 15000+600000
  543934 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,8n,96p,1179b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment4.pdf (2 pages, 43015 bytes).
+ 101i,8n,96p,1179b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on assignment4.pdf (2 pages, 43206 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 33 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
