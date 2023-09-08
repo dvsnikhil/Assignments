@@ -1,0 +1,148 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass{article}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+%
+%\usepackage{setspace}
+%\usepackage{gensymb}
+%\doublespacing
+%\singlespacing
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+%\usepackage{amsthm}
+%\usepackage{iithtlc}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{bm}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{subfig}
+%\usepackage{xtab}
+%\usepackage{longtable}
+%\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{tikz}
+%\usepackage{circuitikz}
+%\usepackage{verbatim}
+%\usepackage{tfrupee}
+%\usepackage{stmaryrd}
+%\usetkzobj{all}
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+%    \usepackage{lscape}     
+%\usepackage{multicol}
+%\usepackage{chngcntr}
+%\usepackage{enumerate}
+
+%\usepackage{wasysym}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+\begin{document}
+\title{Latex Assignment19}
+\author{D.V.S. NIKHIL}
+\date{02 Sep, 2023}
+\maketitle
+\section*{Ex 12.4.1}
+Evaluate the determinants in \ref{prob:1} to \ref{prob:2}:
+\begin{enumerate}
+\item $\myvec
+{2 & 4 \\ -5 & -1}$ \label{prob:1}
+\item  \label{prob:2}
+\begin{enumerate}[label=(\roman*)]
+\item $\myvec
+{\cos \theta  &  -\sin \theta \\ \sin \theta & \cos \theta}$
+\item $\myvec
+{x^2-x+1 & x-1 \\ x+1 & x+1}$ 
+\end{enumerate}
+\item If $A=\myvec
+{1 & 2 \\ 4 & 2}$, then show that $\abs{2A}=\abs{4A}$.
+\item If $A=\myvec
+{1 & 0 & 1 \\ 0 & 1 & 2 \\ 0 & 0 & 4}$, then show that $\abs{3A}=\abs{27A}$.
+\item Evaluate the determinants:
+\begin{enumerate}[label=(\roman*)]
+\item $\myvec
+{3 & -1 & -2 \\ 0 & 0 & 1 \\ 3 & -5 & 0}$
+\item $\myvec
+{3 & -4 & 5 \\ 1 & 1 & -2 \\ 2 & 3 & 1}$
+\item $\myvec
+{0 & 1 & 2 \\ -1 & 0 & -3 \\ -2 & 3 & 0}$
+\item $\myvec
+{2 & -1 & -2 \\ 0 & 2 & -1 \\ 3 & -5 & 0}$
+\end{enumerate}
+\item If $A=\myvec
+{1 & 1 & -2 \\ 2 & 1 & -3 \\ 5 & 4 & -9}$, find $A$.
+\item Find values of $x$, if:
+\begin{enumerate}[label=(\roman*)]
+\item $\myvec
+{2 & 4 \\ 5 & 1}=\myvec {2x & 4 \\ 6 & x}$
+\item $\myvec
+{2 & 3 \\ 4 & 5}=\myvec  {x & 3 \\ 2x & 5}$
+\end{enumerate}
+\item If $\myvec
+{x & 2 \\ 18 & x}=\myvec {6 & 2 \\ 18 & 6}$, then $x$ is equal to:
+\begin{enumerate}
+\item $6$
+\item $\pm 6$
+\item $-6$
+\item $0$
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
+
+  
+
+
+
+
